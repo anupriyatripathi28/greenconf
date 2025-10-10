@@ -38,7 +38,8 @@ Want to add a new vendor or update existing information? Here's how you can cont
 
 6. Commit and push:
    ```bash
-   git add data.yml
+   cd ..
+   git add .
    git commit -m "Add [vendor name]" # or "Update [vendor name]"
    git push origin main
    ```
